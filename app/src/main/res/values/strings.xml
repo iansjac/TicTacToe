@@ -1,0 +1,6 @@
+<resources>
+
+    <string name="app_name">TicTacToe</string>
+    <string name="desc">Welcome to Tic Tac Toe! The exciting game of wits between you and a genius AI player. The goal is to get three of your marks "X" in a row on the board.
+    Whilst simultaneously preventing your opponent from accomplishing the same feat. Best of Luck! Enter your name below and click start!</string>
+</resources>

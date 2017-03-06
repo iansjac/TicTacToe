@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tic_tac_toe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:columnCount="3"
+    android:background="#f0000000"
+    tools:context="ian_jacobs.quinnipiac.edu.tictactoe.TIcTacToeActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:id="@+id/name"
+        android:text="Hello "
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:id="@+id/nothing_really"
+        android:text="Game Status: "
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:id="@+id/status"
+        android:text=""
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18dp"
+        />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:id="@+id/zero"
+        android:src="@drawable/blank"
+        android:onClick="onClickOne"
+        />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:id="@+id/one"
+        android:src="@drawable/blank"
+        android:onClick="onClickTwo"
+        />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:id="@+id/two"
+        android:src="@drawable/blank"
+        android:onClick="onClickThree"
+        />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:id="@+id/three"
+        android:src="@drawable/blank"
+        android:onClick="onClickFour"
+        />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:id="@+id/four"
+        android:src="@drawable/blank"
+        android:onClick="onClickFive"
+        />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_row="2"
+        android:layout_column="2"
+        android:id="@+id/five"
+        android:src="@drawable/blank"
+        android:onClick="onClickSix"
+        />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:id="@+id/six"
+        android:src="@drawable/blank"
+        android:onClick="onClickSeven"
+        />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:id="@+id/seven"
+        android:src="@drawable/blank"
+        android:onClick="onClickEight"
+        />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_row="3"
+        android:layout_column="2"
+        android:id="@+id/eight"
+        android:src="@drawable/blank"
+        android:onClick="onClickNine"
+        />
+
+    <Button
+        android:layout_row="6"
+        android:layout_column="2"
+        android:id="@+id/replay"
+        android:onClick="restart"
+        android:text="Reset"
+        />
+
+
+</GridLayout>
